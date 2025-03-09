@@ -10,7 +10,7 @@ os.environ["GITHUB_ACCESS_TOKEN"] = os.getenv("GITHUB_ACCESS_TOKEN")
 agent = Agent(
     model=Gemini(id="gemini-2.0-flash-exp"),
     instructions=[
-        "Use your tools to answer questions about the repo: agno-agi/agno",
+        "Use your tools to answer questions about the repo: Sasirekha-bg/RESUME_BUILDER",
         "Do not create any issues or pull requests unless explicitly asked to do so",
     ],
     tools=[GithubTools()],
