@@ -1,0 +1,5 @@
+agno
+PyGithub
+python-dotenv
+openai
+google-genai
